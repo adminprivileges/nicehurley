@@ -1,0 +1,35 @@
+baseURL = "https://nicehurley.nefarious.zip/"
+title = "Times Hurley Was Nice to Me"
+theme = "hermit-v2"
+locale = "en-US"
+
+enableRobotsTXT = true
+
+[params]
+  homeSubtitle = "An ongoing record of an unusual phenomenon."
+  footerCopyright = "Times Hurley Was Nice to Me"
+  homeSubtitlePrinter = true
+  shareSocial = false
+  scrollToTop = false
+  code_copy_button = false
+
+[params.author]
+  name = "Thaddeus"
+  about = "/about/"
+
+[params.dateform]
+  CopyrightDate = "2006"
+  LongDate = "January 2, 2006"
+  ShortDate = "Jan 2"
+  NumDateShort = "2006-01-02"
+  NumDateLong = "2006-01-02 15:04 -0700"
+
+[[menus.main]]
+  name = "Tracker"
+  url = "/tracker/"
+  weight = 10
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
